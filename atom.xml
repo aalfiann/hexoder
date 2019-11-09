@@ -5,9 +5,9 @@
   <subtitle>Learning JavaScript with Hexoder</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://127.0.0.1:4000/"/>
+  <link href="https://aalfiann.github.io/hexoder/"/>
   <updated>2019-11-08T09:03:14.680Z</updated>
-  <id>http://127.0.0.1:4000/</id>
+  <id>https://aalfiann.github.io/hexoder/</id>
   
   <author>
     <name>M ABD AZIZ ALFIAN</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>test</title>
-    <link href="http://127.0.0.1:4000/test/"/>
-    <id>http://127.0.0.1:4000/test/</id>
+    <link href="https://aalfiann.github.io/hexoder/test/"/>
+    <id>https://aalfiann.github.io/hexoder/test/</id>
     <published>2019-11-07T19:01:00.000Z</published>
     <updated>2019-11-08T09:03:14.680Z</updated>
     
@@ -35,17 +35,17 @@
     </summary>
     
     
-      <category term="learn" scheme="http://127.0.0.1:4000/categories/learn/"/>
+      <category term="learn" scheme="https://aalfiann.github.io/hexoder/categories/learn/"/>
     
     
-      <category term="totaljs" scheme="http://127.0.0.1:4000/tags/totaljs/"/>
+      <category term="totaljs" scheme="https://aalfiann.github.io/hexoder/tags/totaljs/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://127.0.0.1:4000/hello-world/"/>
-    <id>http://127.0.0.1:4000/hello-world/</id>
+    <link href="https://aalfiann.github.io/hexoder/hello-world/"/>
+    <id>https://aalfiann.github.io/hexoder/hello-world/</id>
     <published>2019-11-07T18:50:19.032Z</published>
     <updated>2019-11-08T13:02:37.527Z</updated>
     
