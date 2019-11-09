@@ -18,8 +18,8 @@
   
   <entry>
     <title>test</title>
-    <link href="https://aalfiann.github.io/hexoder/test/"/>
-    <id>https://aalfiann.github.io/hexoder/test/</id>
+    <link href="https://aalfiann.github.io/hexoder//post/test/"/>
+    <id>https://aalfiann.github.io/hexoder//post/test/</id>
     <published>2019-11-07T19:01:00.000Z</published>
     <updated>2019-11-08T09:03:14.680Z</updated>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://aalfiann.github.io/hexoder/hello-world/"/>
-    <id>https://aalfiann.github.io/hexoder/hello-world/</id>
+    <link href="https://aalfiann.github.io/hexoder//post/hello-world/"/>
+    <id>https://aalfiann.github.io/hexoder//post/hello-world/</id>
     <published>2019-11-07T18:50:19.032Z</published>
     <updated>2019-11-08T13:02:37.527Z</updated>
     
