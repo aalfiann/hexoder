@@ -5,7 +5,7 @@
  */
  
 (function($) {
-	// 回到顶部按钮
+	// Back to top button
     $('.scroll-con, window').scroll(function () {
         var sH = $('.scroll-con').scrollTop() + $('window').scrollTop();;
         if( sH >= 300 ) {
@@ -22,21 +22,21 @@
 		   $('.totop').fadeOut("slow");
 		}
 	});
-	// 回到顶部
+	// back to the top
 	$('.totop').on('click', function() {
 		$('html,body').animate({ scrollTop : 0 }, 200 );
         $('.scroll-con').animate({ scrollTop : 0 }, 200 );
 	});
 
-    // 文章目录
+    // Article directory
     arAnchor();
 
-    // phone端，右侧导航
+    // phone, right navigation
     // $('.right-menu').on('click', function() {
     //     $('body').addClass('right-on');
     // });
 
-    // phone端，右侧导航
+    // Phone side, right side navigation
     $('#nav_btn').on('click', function(e) {
         e.preventDefault();
         $('#nav_list').slideToggle(300);
@@ -61,10 +61,8 @@
     if (searchXml.length == 0) {
      	searchXml = "search.xml";
     }
-    var searchPath = "/" + searchXml;
-    initSearch(searchPath, 'search_input', 'search_result');
 
-    // 初始化搜索与匹配函数
+    // Initialize search and match functions
     function initSearch(path, search_id, content_id) {
         'use strict';
         $.ajax({
@@ -154,15 +152,10 @@
                 });
             }
         });
-	}
+    }
     
-    // 百度统计
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?47acec2d282c3986f1b600abdc11c7ab";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-    })();
+    // init Search
+    var searchPath = "/hexoder/" + searchXml;
+    initSearch(searchPath, 'search_input', 'search_result');
 })(jQuery);
 
