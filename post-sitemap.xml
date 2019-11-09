@@ -8,8 +8,24 @@
     </url>
 
     <url>
+        <loc>https://hexoder.com/post/contact/</loc>
+        <lastmod>2019-11-09T18:47:23.791Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/privacy-policy/</loc>
+        <lastmod>2019-11-09T18:39:24.977Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://hexoder.com/post/about/</loc>
-        <lastmod>2019-11-09T18:28:07.835Z</lastmod>
+        <lastmod>2019-11-09T18:29:42.500Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
