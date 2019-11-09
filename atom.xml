@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hexoder.com/"/>
-  <updated>2019-11-08T09:03:14.680Z</updated>
+  <updated>2019-11-09T18:28:07.835Z</updated>
   <id>https://hexoder.com/</id>
   
   <author>
@@ -17,28 +17,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="https://hexoder.com/post/test/"/>
-    <id>https://hexoder.com/post/test/</id>
-    <published>2019-11-07T19:01:00.000Z</published>
-    <updated>2019-11-08T09:03:14.680Z</updated>
+    <title>About Hexoder</title>
+    <link href="https://hexoder.com/post/about/"/>
+    <id>https://hexoder.com/post/about/</id>
+    <published>2019-11-09T18:05:05.087Z</published>
+    <updated>2019-11-09T18:28:07.835Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Wonderful"><a href="#Wonderful" class="headerlink" title="Wonderful"></a>Wonderful</h2><p>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..  </p><h2 id="Wonderful-2"><a href="#Wonderful-2" class="headerlink" title="Wonderful 2"></a>Wonderful 2</h2><p>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..  </p><h2 id="Wonderful-3"><a href="#Wonderful-3" class="headerlink" title="Wonderful 3"></a>Wonderful 3</h2><p>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..<br>ini hanya test saja bosque..  </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Learning-JavaScript-with-Hexoder"><a href="#Learning-JavaScript-with-Hexoder" class="headerlink" title="Learning JavaScript with Hexoder"></a>Learning JavaScript with Hexoder</h2><p>This website is all about learning, tutorial and research about popular library in NPMJS. I will try to explain in very simple explanation so that it will be useful for beginners.</p><h3 id="Why-JavaScript"><a href="#Why-JavaScript" class="headerlink" title="Why JavaScript ?"></a>Why JavaScript ?</h3><p>In the past years JavaScript was only used to support server side programming languages such as PHP, Python, etc. But only as a client side.</p><p>However, since Ryan Dahl created NodeJS, JavaScript can be used as a server side language. This is a big thing and I’m sure JavaScript will be the future in the programming world. Proven since 2010, JavaScript has always been the most popular language to learn.</p><p>So it’s not too late if you want to start learning JavaScript from now on. Hexoder will try to provide a very simple explanation for you.</p><p>So make sure you bookmark this Hexoder website and get article updates every week.</p><p>Thank you</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;Wonderful&quot;&gt;&lt;a href=&quot;#Wonderful&quot; class=&quot;headerlink&quot; title=&quot;Wonderful&quot;&gt;&lt;/a&gt;Wonderful&lt;/h2&gt;&lt;p&gt;ini hanya test saja bosque..&lt;br&gt;ini hanya 
+        &lt;h2 id=&quot;Learning-JavaScript-with-Hexoder&quot;&gt;&lt;a href=&quot;#Learning-JavaScript-with-Hexoder&quot; class=&quot;headerlink&quot; title=&quot;Learning JavaScript with Hex
       
     
     </summary>
     
     
-      <category term="learn" scheme="https://hexoder.com/categories/learn/"/>
+      <category term="Hexoder" scheme="https://hexoder.com/categories/Hexoder/"/>
     
     
-      <category term="totaljs" scheme="https://hexoder.com/tags/totaljs/"/>
+      <category term="hexoder" scheme="https://hexoder.com/tags/hexoder/"/>
     
   </entry>
   
