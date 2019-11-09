@@ -155,7 +155,7 @@
     }
     
     // init Search
-    var searchPath = "/hexoder/" + searchXml;
+    var searchPath = "/" + searchXml;
     initSearch(searchPath, 'search_input', 'search_result');
 })(jQuery);
 
