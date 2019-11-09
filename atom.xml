@@ -3,11 +3,11 @@
   <title>Hexoder</title>
   
   <subtitle>Learning JavaScript with Hexoder</subtitle>
-  <link href="/hexoder/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="https://aalfiann.github.io/hexoder/"/>
+  <link href="https://hexoder.com/"/>
   <updated>2019-11-08T09:03:14.680Z</updated>
-  <id>https://aalfiann.github.io/hexoder/</id>
+  <id>https://hexoder.com/</id>
   
   <author>
     <name>M ABD AZIZ ALFIAN</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>test</title>
-    <link href="https://aalfiann.github.io/hexoder/post/test/"/>
-    <id>https://aalfiann.github.io/hexoder/post/test/</id>
+    <link href="https://hexoder.com/post/test/"/>
+    <id>https://hexoder.com/post/test/</id>
     <published>2019-11-07T19:01:00.000Z</published>
     <updated>2019-11-08T09:03:14.680Z</updated>
     
@@ -35,17 +35,17 @@
     </summary>
     
     
-      <category term="learn" scheme="https://aalfiann.github.io/hexoder/categories/learn/"/>
+      <category term="learn" scheme="https://hexoder.com/categories/learn/"/>
     
     
-      <category term="totaljs" scheme="https://aalfiann.github.io/hexoder/tags/totaljs/"/>
+      <category term="totaljs" scheme="https://hexoder.com/tags/totaljs/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://aalfiann.github.io/hexoder/post/hello-world/"/>
-    <id>https://aalfiann.github.io/hexoder/post/hello-world/</id>
+    <link href="https://hexoder.com/post/hello-world/"/>
+    <id>https://hexoder.com/post/hello-world/</id>
     <published>2019-11-07T18:50:19.032Z</published>
     <updated>2019-11-08T13:02:37.527Z</updated>
     
