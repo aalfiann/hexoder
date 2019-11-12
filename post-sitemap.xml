@@ -9,15 +9,7 @@
 
     <url>
         <loc>https://hexoder.com/post/install-wine-4-on-elementary-os-juno/</loc>
-        <lastmod>2019-11-12T12:42:47.506Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://hexoder.com/post/setup-unit-test-with-mocha-nyc-travis-coveralls/</loc>
-        <lastmod>2019-11-11T19:38:06.902Z</lastmod>
+        <lastmod>2019-11-12T14:02:38.389Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,7 +17,15 @@
 
     <url>
         <loc>https://hexoder.com/post/right-way-to-deep-clone-object-javascript/</loc>
-        <lastmod>2019-11-10T12:25:18.163Z</lastmod>
+        <lastmod>2019-11-12T14:01:57.276Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/setup-unit-test-with-mocha-nyc-travis-coveralls/</loc>
+        <lastmod>2019-11-12T13:55:54.040Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
