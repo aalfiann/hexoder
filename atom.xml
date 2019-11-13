@@ -5,9 +5,9 @@
   <subtitle>Learning JavaScript with Hexoder</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://hexoder.com/"/>
-  <updated>2019-11-13T10:43:39.041Z</updated>
-  <id>https://hexoder.com/</id>
+  <link href="http://127.0.0.1:4000/"/>
+  <updated>2019-11-13T10:04:06.203Z</updated>
+  <id>http://127.0.0.1:4000/</id>
   
   <author>
     <name>M ABD AZIZ ALFIAN</name>
@@ -17,32 +17,9 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Disclaimer</title>
-    <link href="https://hexoder.com/post/disclaimer/"/>
-    <id>https://hexoder.com/post/disclaimer/</id>
-    <published>2019-11-13T10:41:30.506Z</published>
-    <updated>2019-11-13T10:43:39.041Z</updated>
-    
-    <content type="html"><![CDATA[<p>If you require any more information or have any questions about our site’s disclaimer, please feel free to contact us by email at <a href="mailto:aalfiann@gmail.com" target="_blank" target="_blank" rel="noopener external nofollow noopener noreferrer">aalfiann@gmail.com</a></p><a id="more"></a><h2 id="Disclaimers-for-Hexoder"><a href="#Disclaimers-for-Hexoder" class="headerlink" title="Disclaimers for Hexoder"></a>Disclaimers for Hexoder</h2><p>All the information on this website - <a href="https://hexoder.com">https://hexoder.com</a> - is published in good faith and for general information purpose only. Hexoder does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (Hexoder), is strictly at your own risk. Hexoder will not be liable for any losses and/or damages in connection with the use of our website. Our Disclaimer was generated with the help of the Disclaimer Generator and the Disclaimer Generator.</p><p>From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone ‘bad’.</p><p>Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their “Terms of Service” before engaging in any business or uploading any information.</p><h2 id="Consent"><a href="#Consent" class="headerlink" title="Consent"></a>Consent</h2><p>By using our website, you hereby consent to our disclaimer and agree to its terms.</p><h2 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h2><p>Should we update, amend or make any changes to this document, those changes will be prominently posted here.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;If you require any more information or have any questions about our site’s disclaimer, please feel free to contact us by email at &lt;a href=&quot;mailto:aalfiann@gmail.com&quot; target=&quot;_blank&quot; target=&quot;_blank&quot; rel=&quot;noopener external nofollow noopener noreferrer&quot;&gt;aalfiann@gmail.com&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Hexoder" scheme="https://hexoder.com/categories/Hexoder/"/>
-    
-    
-      <category term="hexoder" scheme="https://hexoder.com/tags/hexoder/"/>
-    
-  </entry>
-  
-  <entry>
     <title>The Fastest Loop in JavaScript</title>
-    <link href="https://hexoder.com/post/the-fastest-loop-in-javascript/"/>
-    <id>https://hexoder.com/post/the-fastest-loop-in-javascript/</id>
+    <link href="http://127.0.0.1:4000/post/the-fastest-loop-in-javascript/"/>
+    <id>http://127.0.0.1:4000/post/the-fastest-loop-in-javascript/</id>
     <published>2019-11-13T00:05:07.039Z</published>
     <updated>2019-11-13T10:04:06.203Z</updated>
     
@@ -55,21 +32,21 @@
     </summary>
     
     
-      <category term="Research" scheme="https://hexoder.com/categories/Research/"/>
+      <category term="Research" scheme="http://127.0.0.1:4000/categories/Research/"/>
     
     
-      <category term="javascript" scheme="https://hexoder.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://127.0.0.1:4000/tags/javascript/"/>
     
-      <category term="nodejs" scheme="https://hexoder.com/tags/nodejs/"/>
+      <category term="nodejs" scheme="http://127.0.0.1:4000/tags/nodejs/"/>
     
-      <category term="native" scheme="https://hexoder.com/tags/native/"/>
+      <category term="native" scheme="http://127.0.0.1:4000/tags/native/"/>
     
   </entry>
   
   <entry>
     <title>Install Wine 4 on Elementary OS Juno</title>
-    <link href="https://hexoder.com/post/install-wine-4-on-elementary-os-juno/"/>
-    <id>https://hexoder.com/post/install-wine-4-on-elementary-os-juno/</id>
+    <link href="http://127.0.0.1:4000/post/install-wine-4-on-elementary-os-juno/"/>
+    <id>http://127.0.0.1:4000/post/install-wine-4-on-elementary-os-juno/</id>
     <published>2019-11-12T10:22:17.098Z</published>
     <updated>2019-11-12T14:02:38.389Z</updated>
     
@@ -82,25 +59,25 @@
     </summary>
     
     
-      <category term="Tutorial" scheme="https://hexoder.com/categories/Tutorial/"/>
+      <category term="Tutorial" scheme="http://127.0.0.1:4000/categories/Tutorial/"/>
     
     
-      <category term="app" scheme="https://hexoder.com/tags/app/"/>
+      <category term="app" scheme="http://127.0.0.1:4000/tags/app/"/>
     
-      <category term="wine" scheme="https://hexoder.com/tags/wine/"/>
+      <category term="wine" scheme="http://127.0.0.1:4000/tags/wine/"/>
     
-      <category term="elementary-os" scheme="https://hexoder.com/tags/elementary-os/"/>
+      <category term="elementary-os" scheme="http://127.0.0.1:4000/tags/elementary-os/"/>
     
-      <category term="ubuntu" scheme="https://hexoder.com/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="http://127.0.0.1:4000/tags/ubuntu/"/>
     
-      <category term="linux" scheme="https://hexoder.com/tags/linux/"/>
+      <category term="linux" scheme="http://127.0.0.1:4000/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>Setup Unit Test with Mocha + NYC + Travis and Coveralls</title>
-    <link href="https://hexoder.com/post/setup-unit-test-with-mocha-nyc-travis-coveralls/"/>
-    <id>https://hexoder.com/post/setup-unit-test-with-mocha-nyc-travis-coveralls/</id>
+    <link href="http://127.0.0.1:4000/post/setup-unit-test-with-mocha-nyc-travis-coveralls/"/>
+    <id>http://127.0.0.1:4000/post/setup-unit-test-with-mocha-nyc-travis-coveralls/</id>
     <published>2019-11-11T18:55:53.332Z</published>
     <updated>2019-11-12T13:55:54.040Z</updated>
     
@@ -113,23 +90,23 @@
     </summary>
     
     
-      <category term="Tutorial" scheme="https://hexoder.com/categories/Tutorial/"/>
+      <category term="Tutorial" scheme="http://127.0.0.1:4000/categories/Tutorial/"/>
     
     
-      <category term="javascript" scheme="https://hexoder.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://127.0.0.1:4000/tags/javascript/"/>
     
-      <category term="nodejs" scheme="https://hexoder.com/tags/nodejs/"/>
+      <category term="nodejs" scheme="http://127.0.0.1:4000/tags/nodejs/"/>
     
-      <category term="native" scheme="https://hexoder.com/tags/native/"/>
+      <category term="native" scheme="http://127.0.0.1:4000/tags/native/"/>
     
-      <category term="learning" scheme="https://hexoder.com/tags/learning/"/>
+      <category term="learning" scheme="http://127.0.0.1:4000/tags/learning/"/>
     
   </entry>
   
   <entry>
     <title>Right Way to Deep Clone Object JavaScript</title>
-    <link href="https://hexoder.com/post/right-way-to-deep-clone-object-javascript/"/>
-    <id>https://hexoder.com/post/right-way-to-deep-clone-object-javascript/</id>
+    <link href="http://127.0.0.1:4000/post/right-way-to-deep-clone-object-javascript/"/>
+    <id>http://127.0.0.1:4000/post/right-way-to-deep-clone-object-javascript/</id>
     <published>2019-11-10T10:03:50.157Z</published>
     <updated>2019-11-12T14:01:57.276Z</updated>
     
@@ -142,84 +119,14 @@
     </summary>
     
     
-      <category term="Research" scheme="https://hexoder.com/categories/Research/"/>
+      <category term="Research" scheme="http://127.0.0.1:4000/categories/Research/"/>
     
     
-      <category term="javascript" scheme="https://hexoder.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://127.0.0.1:4000/tags/javascript/"/>
     
-      <category term="nodejs" scheme="https://hexoder.com/tags/nodejs/"/>
+      <category term="nodejs" scheme="http://127.0.0.1:4000/tags/nodejs/"/>
     
-      <category term="native" scheme="https://hexoder.com/tags/native/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Contact</title>
-    <link href="https://hexoder.com/post/contact/"/>
-    <id>https://hexoder.com/post/contact/</id>
-    <published>2019-11-09T18:32:31.155Z</published>
-    <updated>2019-11-09T19:01:15.766Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Contact-Person"><a href="#Contact-Person" class="headerlink" title="Contact Person:"></a>Contact Person:</h3><p>Hexoder originated from Indonesia and managed by myself.</p><a id="more"></a><p><strong>M ABD AZIZ ALFIAN</strong></p><p><strong>WhatsApp</strong>: +6283806075400<br><strong>Email</strong>: <a href="mailto:aalfiann@gmail.com" target="_blank" target="_blank" rel="noopener external nofollow noopener noreferrer">aalfiann@gmail.com</a></p><p>Submission of matters relating to content and copyright,<br>please feel free to email us as soon as possible.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;Contact-Person&quot;&gt;&lt;a href=&quot;#Contact-Person&quot; class=&quot;headerlink&quot; title=&quot;Contact Person:&quot;&gt;&lt;/a&gt;Contact Person:&lt;/h3&gt;&lt;p&gt;Hexoder originated from Indonesia and managed by myself.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Hexoder" scheme="https://hexoder.com/categories/Hexoder/"/>
-    
-    
-      <category term="hexoder" scheme="https://hexoder.com/tags/hexoder/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Privacy Policy</title>
-    <link href="https://hexoder.com/post/privacy-policy/"/>
-    <id>https://hexoder.com/post/privacy-policy/</id>
-    <published>2019-11-09T18:31:31.066Z</published>
-    <updated>2019-11-09T19:06:08.269Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Privacy-Policy-for-Hexoder"><a href="#Privacy-Policy-for-Hexoder" class="headerlink" title="Privacy Policy for Hexoder"></a>Privacy Policy for Hexoder</h2><p>At Hexoder, accessible from <a href="https://hexoder.com">https://hexoder.com</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Hexoder and how we use it.</p><p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p><a id="more"></a><h3 id="Log-Files"><a href="#Log-Files" class="headerlink" title="Log Files"></a>Log Files</h3><p>Hexoder follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services’ analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users’ movement on the website, and gathering demographic information.</p><h3 id="Cookies-and-Web-Beacons"><a href="#Cookies-and-Web-Beacons" class="headerlink" title="Cookies and Web Beacons"></a>Cookies and Web Beacons</h3><p>Like any other website, Hexoder uses ‘cookies’. These cookies are used to store information including visitors’ preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users’ experience by customizing our web page content based on visitors’ browser type and/or other information.</p><h3 id="Google-DoubleClick-DART-Cookie"><a href="#Google-DoubleClick-DART-Cookie" class="headerlink" title="Google DoubleClick DART Cookie"></a>Google DoubleClick DART Cookie</h3><p>Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to <a href="http://www.website.com" target="_blank" target="_blank" rel="noopener external nofollow noopener noreferrer">www.website.com</a> and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <a href="https://policies.google.com/technologies/ads" target="_blank" target="_blank" rel="noopener external nofollow noopener noreferrer">https://policies.google.com/technologies/ads</a></p><h3 id="Privacy-Policies"><a href="#Privacy-Policies" class="headerlink" title="Privacy Policies"></a>Privacy Policies</h3><p>You may consult this list to find the Privacy Policy for each of the advertising partners of Hexoder. Our Privacy Policy was created with the help of the Privacy Policy Generator and the Generate Privacy Policy Generator.</p><p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Hexoder, which are sent directly to users’ browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p><p>Note that Hexoder has no access to or control over these cookies that are used by third-party advertisers.</p><h3 id="Third-Party-Privacy-Policies"><a href="#Third-Party-Privacy-Policies" class="headerlink" title="Third Party Privacy Policies"></a>Third Party Privacy Policies</h3><p>Hexoder’s Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. You may find a complete list of these Privacy Policies and their links here: Privacy Policy Links.</p><p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers’ respective websites. What Are Cookies?</p><h3 id="Children’s-Information"><a href="#Children’s-Information" class="headerlink" title="Children’s Information"></a>Children’s Information</h3><p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p><p>Hexoder does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p><h3 id="Online-Privacy-Policy-Only"><a href="#Online-Privacy-Policy-Only" class="headerlink" title="Online Privacy Policy Only"></a>Online Privacy Policy Only</h3><p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Hexoder. This policy is not applicable to any information collected offline or via channels other than this website.</p><h3 id="Consent"><a href="#Consent" class="headerlink" title="Consent"></a>Consent</h3><p>By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Privacy-Policy-for-Hexoder&quot;&gt;&lt;a href=&quot;#Privacy-Policy-for-Hexoder&quot; class=&quot;headerlink&quot; title=&quot;Privacy Policy for Hexoder&quot;&gt;&lt;/a&gt;Privacy Policy for Hexoder&lt;/h2&gt;&lt;p&gt;At Hexoder, accessible from &lt;a href=&quot;https://hexoder.com&quot;&gt;https://hexoder.com&lt;/a&gt;, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Hexoder and how we use it.&lt;/p&gt;
-&lt;p&gt;If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Hexoder" scheme="https://hexoder.com/categories/Hexoder/"/>
-    
-    
-      <category term="hexoder" scheme="https://hexoder.com/tags/hexoder/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>About Hexoder</title>
-    <link href="https://hexoder.com/post/about/"/>
-    <id>https://hexoder.com/post/about/</id>
-    <published>2019-11-09T18:05:05.087Z</published>
-    <updated>2019-11-09T18:29:42.500Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Learning-JavaScript-with-Hexoder"><a href="#Learning-JavaScript-with-Hexoder" class="headerlink" title="Learning JavaScript with Hexoder"></a>Learning JavaScript with Hexoder</h2><p>This website is all about learning, tutorial and research about popular library in NPMJS. I will try to explain in very simple explanation so that it will be useful for beginners.</p><a id="more"></a><h3 id="Why-JavaScript"><a href="#Why-JavaScript" class="headerlink" title="Why JavaScript ?"></a>Why JavaScript ?</h3><p>In the past years JavaScript was only used to support server side programming languages such as PHP, Python, etc. But only as a client side.</p><p>However, since Ryan Dahl created NodeJS, JavaScript can be used as a server side language. This is a big thing and I’m sure JavaScript will be the future in the programming world. Proven since 2010, JavaScript has always been the most popular language to learn.</p><p>So it’s not too late if you want to start learning JavaScript from now on. Hexoder will try to provide a very simple explanation for you.</p><p>So make sure you bookmark this Hexoder website and get article updates every week.</p><p>Thank you</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Learning-JavaScript-with-Hexoder&quot;&gt;&lt;a href=&quot;#Learning-JavaScript-with-Hexoder&quot; class=&quot;headerlink&quot; title=&quot;Learning JavaScript with Hexoder&quot;&gt;&lt;/a&gt;Learning JavaScript with Hexoder&lt;/h2&gt;&lt;p&gt;This website is all about learning, tutorial and research about popular library in NPMJS. I will try to explain in very simple explanation so that it will be useful for beginners.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Hexoder" scheme="https://hexoder.com/categories/Hexoder/"/>
-    
-    
-      <category term="hexoder" scheme="https://hexoder.com/tags/hexoder/"/>
+      <category term="native" scheme="http://127.0.0.1:4000/tags/native/"/>
     
   </entry>
   
