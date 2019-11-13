@@ -2,13 +2,13 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://127.0.0.1:4000</loc>
+        <loc>https://hexoder.com</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/post/the-fastest-loop-in-javascript/</loc>
+        <loc>https://hexoder.com/post/the-fastest-loop-in-javascript/</loc>
         <lastmod>2019-11-13T10:04:06.203Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -16,7 +16,7 @@
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/post/install-wine-4-on-elementary-os-juno/</loc>
+        <loc>https://hexoder.com/post/install-wine-4-on-elementary-os-juno/</loc>
         <lastmod>2019-11-12T14:02:38.389Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -24,7 +24,7 @@
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/post/right-way-to-deep-clone-object-javascript/</loc>
+        <loc>https://hexoder.com/post/right-way-to-deep-clone-object-javascript/</loc>
         <lastmod>2019-11-12T14:01:57.276Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -32,7 +32,7 @@
     </url>
 
     <url>
-        <loc>http://127.0.0.1:4000/post/setup-unit-test-with-mocha-nyc-travis-coveralls/</loc>
+        <loc>https://hexoder.com/post/setup-unit-test-with-mocha-nyc-travis-coveralls/</loc>
         <lastmod>2019-11-12T13:55:54.040Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
