@@ -3,12 +3,12 @@
 
 
     <sitemap>
-        <loc>https://hexoder.com/post-sitemap.xml</loc>
+        <loc>http://127.0.0.1:4000/post-sitemap.xml</loc>
         <lastmod>2019-11-13T10:04:06.203Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://hexoder.com/page-sitemap.xml</loc>
+        <loc>http://127.0.0.1:4000/page-sitemap.xml</loc>
         <lastmod>2019-11-13T16:55:18.300Z</lastmod>
     </sitemap>
 
