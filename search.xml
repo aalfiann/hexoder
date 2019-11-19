@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>How to Avoid JavaScript Heap Out of Memory</title>
+      <link href="/post/how-to-avoid-javascript-heap-out-of-memory/"/>
+      <url>/post/how-to-avoid-javascript-heap-out-of-memory/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.imgur.com/PGbrPwe.jpg" alt=""><br>Hello guys, today I would like to write about How to Avoid JavaScript Heap Out of Memory in NodeJS.<br><code>JavaScript heap out of memory</code> is normally happend when you are reading very large file.<br>But sometimes this could happen when you are in big loop process to push data into array.</p><a id="more"></a><h2 id="What-is-JavaScript-Heap-Out-of-Memory"><a href="#What-is-JavaScript-Heap-Out-of-Memory" class="headerlink" title="What is JavaScript Heap Out of Memory?"></a>What is JavaScript Heap Out of Memory?</h2><p>JavaScript Heap Out of Memory means you have reach the limit of NodeJS memory usage. The strict standar limit memory usage in V8 is around 1.7 GB. So you have to increase this manually if you have reach this limit.</p><h2 id="Using-Stream"><a href="#Using-Stream" class="headerlink" title="Using Stream"></a>Using Stream</h2><p>When you are going to handle big file in NodeJS, the best practice is using <code>stream</code>. Because stream will break apart process into line per line, so the CPU can breath longer when processing big data. But using native <code>stream</code> is still not enough for very very large data file. You still get <code>JavaScript Heap Out of Memory</code>. So I going to describe what is the simple way and the best way of using stream to avoid JavaScript Heap Out of Memory below here.</p><h3 id="Simple-Way"><a href="#Simple-Way" class="headerlink" title="Simple Way"></a>Simple Way</h3><p>After I take a look searching through google and make some research. The very simple way to avoid JavaScript Heap Out of Memory in NodeJS is using <code>createReadStream</code>.</p><ul><li>Example for read file<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">'fs'</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> reader = fs.createReadStream(<span class="string">'your/path/file'</span>);</span><br><span class="line">reader.on(<span class="string">'data'</span>, (line) =&gt; &#123;</span><br><span class="line">  <span class="comment">// handle data line per line here</span></span><br><span class="line">&#125;);</span><br><span class="line">reader.on(<span class="string">'error'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">err</span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(err);</span><br><span class="line">&#125;);</span><br><span class="line">reader.on(<span class="string">'done'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'Reading file success!'</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></li></ul><p>If you’re file is under 400Mb, then above method is still work well. But how if you’re file is very large? like 1Gb or 2Gb in size? Actually this way is still fails (not working), you still get <code>JavaScript Heap Out of Memory</code>.</p><p>To solve this problem you should run extra arguments when executing your js.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node --max-old-space-size=4096 yourFile.js</span><br></pre></td></tr></table></figure><p>Very simple way because you have already increase the strict standar limit of memory usage in NodeJS. This is working but actually I don’t recommend to use this way.</p><h3 id="Best-Way"><a href="#Best-Way" class="headerlink" title="Best Way"></a>Best Way</h3><p>So what is the best way to handle big file? The answer is turn your native stream into event stream.<br>Yeah I know this is not simple, but thanks to him, this guy name <code>Dominictarr</code> was created the <a href="https://www.npmjs.com/package/event-stream" target="_blank" target="_blank" rel="noopener external nofollow noopener noreferrer">event-stream</a> library which is this library is the best eficient way to play with stream in NodeJS.</p><p>Example for read file</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">'fs'</span>);</span><br><span class="line"><span class="keyword">const</span> es = <span class="built_in">require</span>(<span class="string">'event-stream'</span>);</span><br><span class="line"></span><br><span class="line">fs.createReadStream(<span class="string">'your/path/file'</span>)</span><br><span class="line">  .pipe(</span><br><span class="line">    es.mapSync(<span class="function"><span class="keyword">function</span>(<span class="params">line</span>) </span>&#123;</span><br><span class="line">      <span class="comment">// handle data line per line here</span></span><br><span class="line">    &#125;)</span><br><span class="line">  )</span><br><span class="line">  .on(<span class="string">'error'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">err</span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(err);</span><br><span class="line">  &#125;)</span><br><span class="line">  .on(<span class="string">'end'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Reading file success!'</span>);</span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure><p>I successfully to read log file around 2Gb in size with this way without have to set</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--max-old-space-size=4096</span><br></pre></td></tr></table></figure><h3 id="Big-JSON-File-Problem"><a href="#Big-JSON-File-Problem" class="headerlink" title="Big JSON File Problem"></a>Big JSON File Problem</h3><p>I facing another issue when the file is json string. That above method is very slow, it is because to parse your data to json object. But thanks to him again, <code>Dominictarr</code> create another <a href="https://www.npmjs.com/package/JSONStream" target="_blank" target="_blank" rel="noopener external nofollow noopener noreferrer">JSONStream</a> library which is to improve the performance in <code>event-stream</code> while parsing to json object.</p><p>Example to parse big json</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">'fs'</span>);</span><br><span class="line"><span class="keyword">const</span> es = <span class="built_in">require</span>(<span class="string">'event-stream'</span>);</span><br><span class="line"><span class="keyword">const</span> jsonStream = <span class="built_in">require</span>(<span class="string">'JSONStream'</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> json = [];</span><br><span class="line">fs.createReadStream(<span class="string">'your/path/file'</span>)</span><br><span class="line">  .pipe(jsonStream.parse())</span><br><span class="line">  .pipe(</span><br><span class="line">    es.mapSync(<span class="function"><span class="keyword">function</span>(<span class="params">line</span>) </span>&#123;</span><br><span class="line">      json.push(line);</span><br><span class="line">    &#125;)</span><br><span class="line">  )</span><br><span class="line">  .on(<span class="string">'error'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">err</span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(err);</span><br><span class="line">  &#125;)</span><br><span class="line">  .on(<span class="string">'end'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Reading file success!'</span>);</span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure><p><code>event-stream</code> + <code>JSONStream</code> will make improve the performance speed 3x faster for parsing string to json object.</p><h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Using stream is the best practice to handle big data. But not for speed. Even you are successfully to avoid JavaScript Heap Out of Memory in NodeJS, reading big file is always slow.</p><p>Always remember that, just stop or better don’t ever think to use file for saving big data in the future. If right now you having big file for example like log file, just try to move it into database engine like <code>ElasticSearch</code> or <code>Hadoop</code>. This will make your life easier to manage your log data.</p><p>Thank You.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Research </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nodejs </tag>
+            
+            <tag> library </tag>
+            
+            <tag> learning </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>How to JSON Query in JavaScript</title>
       <link href="/post/how-to-json-query-in-javascript/"/>
       <url>/post/how-to-json-query-in-javascript/</url>
@@ -20,15 +49,15 @@
       
         <tags>
             
-            <tag> javascript </tag>
-            
             <tag> nodejs </tag>
             
-            <tag> native </tag>
+            <tag> library </tag>
             
             <tag> learning </tag>
             
-            <tag> library </tag>
+            <tag> javascript </tag>
+            
+            <tag> native </tag>
             
         </tags>
       
@@ -53,9 +82,9 @@
       
         <tags>
             
-            <tag> javascript </tag>
-            
             <tag> nodejs </tag>
+            
+            <tag> javascript </tag>
             
             <tag> native </tag>
             
@@ -115,13 +144,13 @@
       
         <tags>
             
-            <tag> javascript </tag>
-            
             <tag> nodejs </tag>
             
-            <tag> native </tag>
-            
             <tag> learning </tag>
+            
+            <tag> javascript </tag>
+            
+            <tag> native </tag>
             
         </tags>
       
@@ -146,9 +175,9 @@
       
         <tags>
             
-            <tag> javascript </tag>
-            
             <tag> nodejs </tag>
+            
+            <tag> javascript </tag>
             
             <tag> native </tag>
             
