@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://hexoder.com/post/right-way-to-deep-clone-object-javascript/</loc>
+        <lastmod>2019-12-05T05:17:43.642Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://hexoder.com/post/introduction-about-jsonql-in-nodejs/</loc>
         <lastmod>2019-12-05T04:39:13.525Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -25,14 +33,6 @@
 
     <url>
         <loc>https://hexoder.com/post/the-fastest-loop-in-javascript/</loc>
-        <lastmod>2019-11-20T04:45:24.842Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://hexoder.com/post/right-way-to-deep-clone-object-javascript/</loc>
         <lastmod>2019-11-20T04:45:24.842Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
