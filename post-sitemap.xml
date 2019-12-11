@@ -8,8 +8,8 @@
     </url>
 
     <url>
-        <loc>https://hexoder.com/post/reason-why-i-choose-elementary-os/</loc>
-        <lastmod>2019-12-11T05:53:06.700Z</lastmod>
+        <loc>https://hexoder.com/post/introduction-about-jsonql-in-nodejs/</loc>
+        <lastmod>2019-12-11T10:13:22.001Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +17,7 @@
 
     <url>
         <loc>https://hexoder.com/post/how-to-create-app-totaljs-with-mongoose-5/</loc>
-        <lastmod>2019-12-10T11:19:00.941Z</lastmod>
+        <lastmod>2019-12-11T10:13:09.457Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,7 +25,15 @@
 
     <url>
         <loc>https://hexoder.com/post/best-practice-to-create-rest-api-with-totaljs-framework/</loc>
-        <lastmod>2019-12-09T12:53:20.857Z</lastmod>
+        <lastmod>2019-12-11T10:12:56.620Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/reason-why-i-choose-elementary-os/</loc>
+        <lastmod>2019-12-11T05:53:06.700Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -50,14 +58,6 @@
     <url>
         <loc>https://hexoder.com/post/right-way-to-deep-clone-object-javascript/</loc>
         <lastmod>2019-12-05T05:17:43.642Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://hexoder.com/post/introduction-about-jsonql-in-nodejs/</loc>
-        <lastmod>2019-12-05T04:39:13.525Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
