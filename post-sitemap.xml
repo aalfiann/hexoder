@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://hexoder.com/post/reason-why-i-choose-elementary-os/</loc>
+        <lastmod>2019-12-11T05:53:06.700Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://hexoder.com/post/how-to-create-app-totaljs-with-mongoose-5/</loc>
         <lastmod>2019-12-10T11:19:00.941Z</lastmod>
         <changefreq>weekly</changefreq>
