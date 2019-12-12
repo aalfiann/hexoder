@@ -8,6 +8,30 @@
     </url>
 
     <url>
+        <loc>https://hexoder.com/post/reason-why-i-prefer-nodejs-than-php/</loc>
+        <lastmod>2019-12-12T13:17:32.687Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/pros-and-cons-of-totaljs-framework/</loc>
+        <lastmod>2019-12-12T06:09:34.125Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/reason-why-i-choose-elementary-os/</loc>
+        <lastmod>2019-12-12T06:08:27.105Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://hexoder.com/post/how-to-use-npm-package-manager/</loc>
         <lastmod>2019-12-11T17:16:57.070Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -34,22 +58,6 @@
     <url>
         <loc>https://hexoder.com/post/best-practice-to-create-rest-api-with-totaljs-framework/</loc>
         <lastmod>2019-12-11T10:12:56.620Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://hexoder.com/post/reason-why-i-choose-elementary-os/</loc>
-        <lastmod>2019-12-11T05:53:06.700Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://hexoder.com/post/pros-and-cons-of-totaljs-framework/</loc>
-        <lastmod>2019-12-07T17:15:59.485Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

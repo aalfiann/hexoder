@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Reason Why I Prefer NodeJS than PHP</title>
+      <link href="/post/reason-why-i-prefer-nodejs-than-php/"/>
+      <url>/post/reason-why-i-prefer-nodejs-than-php/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.imgur.com/yh9xk63.jpg" alt=""></p><p>Hello guys, in this article will talk about server side programming using NodeJS and PHP. I write this article because there is still many question about PHP is Dying in 2019. Actualy PHP is not dying, but PHP popularity ranking seems always going down. So what happened in PHP and Why I prefer NodeJS than PHP?</p><a id="more"></a><h2 id="History"><a href="#History" class="headerlink" title="History"></a>History</h2><p>Before I write the reason why I prefer NodeJS than PHP, I will tell you a little about my history to work as developer. At 2008 I started to learn PHP. PHP is not my first programming language but I use it until this time 2019. Then at early 2014 I started to learn NodeJS, but I do more serious using NodeJS started at 2016 until this time. So I was using PHP for more than 11 years and I using NodeJS for more than 4 years. I know PHP better than NodeJS, but now I prefer using NodeJS than PHP.</p><h2 id="PHP-Compare-with-NodeJS"><a href="#PHP-Compare-with-NodeJS" class="headerlink" title="PHP Compare with NodeJS"></a>PHP Compare with NodeJS</h2><p>There is many another programming language out there. But why I compare PHP with NodeJS is because these two is so popular and having similarities technology. NodeJS and PHP is an interpreted language. PHP is behind Zend Framework and NodeJS is behind Google V8 JavaScript Engine.</p><p>I will not compare about features of NodeJS or PHP, because we already know these two programming language has different concept which PHP is synchronous and NodeJS is asynchronous. So I think this is not fair, this is like comparing between <code>Apples and Oranges</code>, so I will compare about experience in real world with using PHP and NodeJS.</p><p>So here is the reason why I prefer NodeJS than PHP for a serious project:</p><h3 id="PHP-is-Expensive"><a href="#PHP-is-Expensive" class="headerlink" title="PHP is Expensive"></a>PHP is Expensive</h3><ul><li>Shared Hosting</li></ul><p>Many people said that PHP is very cheap, because you can just start your website with small shared hosting. And if you using NodeJS, You are required to buy a VPS hosting. Is this true? Yes this is true in year ago, because today cpanel has support to run NodeJS application and today many hosting provider support NodeJS in shared hosting package.</p><ul><li>Database in Shared Hosting</li></ul><p>Most of PHP application is need a database server. I know that PHP could use json file as database, but just don’t use this way, because PHP is blocking, your database in json file could broken at anytime when you have high request. So you will required a database server like <code>MySQL</code>,<code>MongoDB</code>, etc.</p><p>If you think will install or use database server in same shared hosting, actualy this would not make any big difference. Because database server will eat more memory, so your PHP will lack of memory. Most of people will use file cache to decrease request to database, but just don’t do this because your inode is limited.</p><p>How about using <code>SQLite</code>? Yes you are able to bypass the inode limit, but actualy, SQLite is blocking, you won’t get much benefit by using <code>SQLite</code> if your concurrent visitor more than 100 visitor. Your PHP will going more slower and maybe will getting request timeout.</p><ul><li>Conclusion about this expensive</li></ul><p>NodeJS is more cheaper. For small application you are not required to use database server, you can just use json file as database and you have no worries about blocking as NodeJS is asynchronous. NodeJS is single thread, multiple request will be queued automatically in background process so you don’t required a proxy server like <code>NGINX</code>. Also you can use memory as cache internally without a cache server like <code>Redis</code>,<code>Memcache</code>,etc.</p><p>PHP is expensive because you have to buy another server for database server for the first time. But if you want to install database server in same hosting, you will required more RAM size, so you will still need to increase your payment for your shared hosting.</p><p>As my experience, using database server is required minimum 1Gb of RAM, and this still not strong enough to handle more than 100 concurrent queries.</p><h3 id="PHP-is-Slow"><a href="#PHP-is-Slow" class="headerlink" title="PHP is Slow"></a>PHP is Slow</h3><p>The fastest PHP framework is <code>Slim Framework</code> and <code>Lumen</code>, which is could handle <code>1900 request/second</code> only to <code>echo hello world!</code>.</p><p>But the fastest NodeJS framework is <code>fastify</code>, which is could handle <code>50143 request/second</code> only to <code>echo hellow world!</code>. The slower NodeJS framework is <code>hapi</code>, which is could handle <code>17870 request/second</code>. Even with the slower NodeJS framework, PHP still can not beat NodeJS speed.</p><p>I use framework to compare the speed, because in real world, you will never use native except a framework.</p><h3 id="PHP-is-Hard-to-Scale"><a href="#PHP-is-Hard-to-Scale" class="headerlink" title="PHP is Hard to Scale"></a>PHP is Hard to Scale</h3><p>What I mean about scale is the project growing bigger, this is not about scaling the request. PHP will always recompile the script in every request, so PHP will eat more memory if your source code is getting bigger.</p><p>Even if I using singleton in PHP, they don’t save the state of variable. PHP can not save the variable persistent in memory except you are using cache in memory like <code>Redis</code>, <code>Memcache</code>, etc.</p><p>I have an experience with wordpress, which is my wordpress getting slower as I have many plugins installed in my wordpress. After take a research, I just knew that PHP is always reload all library in every request. So if you have many plugins, it mean PHP will take more memory to recompile it plugin scripts in every single request.</p><p>In NodeJS, for a common class when you <code>require</code> a library, this will become singleton, so if you are <code>require</code> for multiple times, NodeJS will not recompile again and again for the same library. So even your project is getting bigger, your application still fast and low in memory consumption. This singleton also support to saving a variable which is persistent.</p><h2 id="Final-Thought"><a href="#Final-Thought" class="headerlink" title="Final Thought"></a>Final Thought</h2><p>With all above reason, in my opinion, NodeJS is better than PHP. You can go with PHP for small or medium project and go with NodeJS for enterprise or serious project. I recommend to use NodeJS since PHP is hard to scale. Remember that when you are working in big project, you have responsible to maintain and scale your application.</p><p>PHP is simple but NodeJS is not too complex. But it just the code line more longer because mostly to code in NodeJS, you have to playing around with callback and closure.</p><p>This doesn’t mean I will stop creating an application with PHP. You have to open mind, that market demand for PHP application is still high. Actualy, I still make a lot money from PHP as freelancer.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Opinion </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nodejs </tag>
+            
+            <tag> php </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>How to Use NPM Package Manager</title>
       <link href="/post/how-to-use-npm-package-manager/"/>
       <url>/post/how-to-use-npm-package-manager/</url>
@@ -42,7 +69,7 @@
       
       <categories>
           
-          <category> Research </category>
+          <category> Opinion </category>
           
       </categories>
       
