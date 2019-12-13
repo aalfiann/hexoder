@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://hexoder.com/post/how-to-make-hexo-blog-load-faster/</loc>
+        <lastmod>2019-12-13T23:11:01.436Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://hexoder.com/post/reason-why-i-prefer-nodejs-than-php/</loc>
         <lastmod>2019-12-12T13:17:32.687Z</lastmod>
         <changefreq>weekly</changefreq>
