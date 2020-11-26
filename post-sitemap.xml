@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://hexoder.com/post/create-your-own-vanilla-datatables/</loc>
+        <lastmod>2020-11-26T13:51:04.837Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://hexoder.com/post/create-a-serverless-api-with-fastify-framework/</loc>
         <lastmod>2020-01-15T10:28:28.497Z</lastmod>
         <changefreq>weekly</changefreq>
