@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://hexoder.com/post/list-unlimited-free-image-cdn/</loc>
+        <lastmod>2021-01-01T06:21:27.519Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/how-to-use-openvpn-client-in-elementary-os-for-free/</loc>
+        <lastmod>2020-12-31T20:31:13.272Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://hexoder.com/post/very-lightweight-form-validation-javascript-library/</loc>
         <lastmod>2020-12-31T20:05:03.993Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -82,14 +98,6 @@
     <url>
         <loc>https://hexoder.com/post/install-wine-4-on-elementary-os-juno/</loc>
         <lastmod>2020-12-31T20:01:46.842Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://hexoder.com/post/how-to-use-openvpn-client-in-elementary-os-for-free/</loc>
-        <lastmod>2020-12-31T20:01:25.518Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
