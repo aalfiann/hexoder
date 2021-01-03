@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://hexoder.com/post/create-your-own-vanilla-datatables/</loc>
+        <lastmod>2021-01-03T09:05:43.725Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://hexoder.com/post/what-is-the-best-alternative-msoffice-in-linux/</loc>
         <lastmod>2021-01-03T05:18:56.897Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -170,14 +178,6 @@
     <url>
         <loc>https://hexoder.com/post/how-to-avoid-javascript-heap-out-of-memory/</loc>
         <lastmod>2020-12-31T19:58:07.263Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://hexoder.com/post/create-your-own-vanilla-datatables/</loc>
-        <lastmod>2020-12-31T19:57:40.539Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
