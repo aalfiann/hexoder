@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://hexoder.com</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/how-to-install-anbox-in-elementary-os-hera/</loc>
+        <lastmod>2021-05-24T17:25:19.536Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/what-is-the-best-alternative-msoffice-in-linux/</loc>
+        <lastmod>2021-02-11T14:00:37.465Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/very-lightweight-form-validation-javascript-library/</loc>
+        <lastmod>2021-02-11T14:00:32.717Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/the-fastest-loop-in-javascript/</loc>
+        <lastmod>2021-02-11T14:00:28.593Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/setup-unit-test-with-mocha-nyc-travis-coveralls/</loc>
+        <lastmod>2021-02-11T14:00:23.877Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/right-way-to-deep-clone-object-javascript/</loc>
+        <lastmod>2021-02-11T14:00:19.969Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/reason-why-i-prefer-nodejs-than-php/</loc>
+        <lastmod>2021-02-11T14:00:15.921Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/reason-why-i-choose-elementary-os/</loc>
+        <lastmod>2021-02-11T14:00:11.984Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/protect-your-images-content-with-imgfo/</loc>
+        <lastmod>2021-02-11T14:00:07.948Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/pros-and-cons-of-totaljs-framework/</loc>
+        <lastmod>2021-02-11T14:00:01.748Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/list-unlimited-free-image-cdn/</loc>
+        <lastmod>2021-02-11T13:59:57.824Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/introduction-about-jsonql-in-nodejs/</loc>
+        <lastmod>2021-02-11T13:59:53.576Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/install-wine-4-on-elementary-os-juno/</loc>
+        <lastmod>2021-02-11T13:59:49.520Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/how-to-use-openvpn-client-in-elementary-os-for-free/</loc>
+        <lastmod>2021-02-11T13:59:45.572Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/how-to-use-npm-package-manager/</loc>
+        <lastmod>2021-02-11T13:59:41.856Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/how-to-make-hexo-blog-load-faster/</loc>
+        <lastmod>2021-02-11T13:59:37.528Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/how-to-json-query-in-javascript/</loc>
+        <lastmod>2021-02-11T13:59:31.108Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/how-to-install-phantomjs-in-elementary-os-5/</loc>
+        <lastmod>2021-02-11T13:59:26.696Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/how-to-install-go-lang-in-elementary-os-hera/</loc>
+        <lastmod>2021-02-11T13:59:12.744Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/how-to-create-app-totaljs-with-mongoose-5/</loc>
+        <lastmod>2021-02-11T13:59:08.008Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/how-to-cache-mongoose-in-nodejs/</loc>
+        <lastmod>2021-02-11T13:59:03.752Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/how-to-avoid-javascript-heap-out-of-memory/</loc>
+        <lastmod>2021-02-11T13:58:59.884Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/create-your-own-vanilla-datatables/</loc>
+        <lastmod>2021-02-11T13:58:54.296Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/create-professional-library-in-npm-package/</loc>
+        <lastmod>2021-02-11T13:58:49.700Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/create-a-serverless-api-with-fastify-framework/</loc>
+        <lastmod>2021-02-11T13:58:45.372Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://hexoder.com/post/best-practice-to-create-rest-api-with-totaljs-framework/</loc>
+        <lastmod>2021-02-11T13:58:41.136Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->

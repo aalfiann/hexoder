@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hexoder.com/sitemap.xml
